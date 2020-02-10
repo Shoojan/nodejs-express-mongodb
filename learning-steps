@@ -1,0 +1,14 @@
+1. To generate package.json file -> npm init -y  //-y holds for all true
+
+2. To install dependencies -> npm i 
+    a. express (for our server)
+    b. ejs (for our templating language)
+    c. expres-ejs-layouts (allows us to create a layout file for all our HTML)
+
+3. install development dependency ->  npm i --save-dev nodemon (nodemon allows us to automatically referesh and restart our server)
+
+4. Run the server -> npm run devStart (devStart contains the starting code inside package.json)
+
+4. install mongodb -> npm i mongoose
+
+5. install dotenv -> npm i --save-dev dotenv (allows us to load in environment variables into our application)
